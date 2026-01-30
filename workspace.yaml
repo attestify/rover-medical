@@ -1,0 +1,12 @@
+workspace: 50-rover-medical-assured-release
+root: .
+repos:
+  - name: repo1
+    url: git@github.com:attestify/rover-medical-system.git
+    branch: main
+    path: rover-medical-system
+  - name: rover-medical-evidence-collection
+    url: git@github.com:attestify/rover-medical-evidence-collection.git
+    branch: main
+    path: rover-medical-evidence-collection
+tooling: # optional: shared tooling repo or devcontainer image tag
