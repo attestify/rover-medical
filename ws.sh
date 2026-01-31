@@ -115,7 +115,7 @@ case "$cmd" in
 
   *)
     cat <<EOF
-Usage: ./scripts/ws <command>
+Usage: ./ws.sh <command>
 
 Commands:
   clone         Clone all repos from workspace.yaml into workspace/
@@ -125,9 +125,9 @@ Commands:
   add           Add a repo to workspace.yaml and .gitignore
 
 Examples:
-  ./scripts/ws clone
-  ./scripts/ws status
-  ./scripts/ws add repo3 git@github.com:org/repo3.git main
+  ./ws clone
+  ./ws status
+  ./ws add repo3 git@github.com:org/repo3.git main
 EOF
     exit 1
     ;;
