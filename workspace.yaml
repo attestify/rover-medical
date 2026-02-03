@@ -9,4 +9,8 @@ repos:
     url: git@github.com:attestify/rover-medical-evidence-collection.git
     branch: main
     path: rover-medical-evidence-collection
+  - name: rover-medical-catalog
+    url: git@github.com:attestify/rover-medical-catalog.git
+    branch: main
+    path: rover-medical-catalog
 tooling: # optional: shared tooling repo or devcontainer image tag
